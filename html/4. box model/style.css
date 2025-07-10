@@ -1,0 +1,45 @@
+#element1{
+    height: 150px;
+    width: 150px;
+    background-color: bisque;
+    margin-bottom: 100px;
+    padding: 10px 20px 30px 40px;
+
+    border-color:cornflowerblue;
+    border-style:dashed;
+    border-width: 5px;
+
+    box-sizing: border-box;
+}
+
+#element2{
+    height: 150px;
+    width: 150px;
+    background-color:violet;
+    margin-top: 120px;
+    padding: 40px;
+
+    /* border shorthand */
+    border: 2px solid black
+}
+
+
+#element3{
+    height: 150px;
+    width: 150px;
+    background-color: bisque;
+    display: inline-block;
+}
+
+
+
+#element4{
+    height: 150px;
+    width: 150px;
+    background-color:violet;
+    display: inline-block;
+}
+
+span{
+    display: block;
+}

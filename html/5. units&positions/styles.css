@@ -1,0 +1,81 @@
+/* ROOT ELEMent */
+html{
+    font-size: 40px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.fixed{
+    background-color: blue;
+    position: fixed;
+    right: 0;
+    top: 100px;
+}
+
+.filler{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    display: inline-block;
+
+    z-index: 3;
+    position: relative;
+}
+.relative{
+    display: inline-block;
+    background-color: aquamarine;
+    height: 100px;
+    width: 100px;
+
+    position: relative;
+    bottom: 10px;
+    right: 50px;
+
+    z-index: 2;
+}
+/* .body{
+    height: 50vh;
+    width: 50vw;
+    background-color: brown;
+} */
+
+.outer-most{
+    height: 500px;
+    width: 500px;
+    background-color: burlywood;
+    font-size: 20px;
+
+    /* position: absolute; */
+    left: 30px;
+    top: 60px;
+
+    /* right:50px;
+    bottom: 80px; */
+}
+
+.outer{
+    height: 300px;
+    width: 300px;
+    background-color:cadetblue;
+     /* adding size acc to PARENT ELEMENT */
+    font-size: 2em;
+
+    position: absolute;
+    left: 80px;
+    top: 60px;
+}
+
+.inner{
+    height: 100px;
+    width: 100px;
+    background-color:turquoise;
+    /* adding size acc to ROOT ELEMENT */
+    font-size: 1rem;
+
+    position: absolute;
+    left: 10px;
+    top: 60px;
+}

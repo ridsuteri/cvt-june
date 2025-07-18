@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    background-color: bisque;
+
+    display: flex;
+
+    /* flex-wrap: wrap; */
+    
+    /* this decides your main axis  */
+    flex-direction: row;
+
+    /* works across main axis */
+
+    /**** places thing at end  ****/
+    /* justify-content: flex-end; */
+
+    /* ** equidistance b/w element ** */
+    /* justify-content: space-evenly; */
+
+    /*** maintain equal & slightly more distance b/w element & lesser b/w the edges ***/
+    /* justify-content: space-around; */
+
+    justify-content: space-between;
+
+
+    /* works across cross axis (other axis) */
+    /* align-items: flex-end; */
+    
+    /* align-items: space-around; */
+}
+
+.flex-element{
+    height: 250px;
+    width: 250px;
+}
+.element1{
+    background-color: blueviolet;
+}
+
+.element2{
+    background-color: greenyellow;
+    /* flex-shrink: 4; */
+    flex-grow: 4;
+}
+
+.element3{
+    background-color:tomato;
+}

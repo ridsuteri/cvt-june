@@ -3,18 +3,23 @@
     padding: 0;
 }
 
-body{
+body {
     height: 100vh;
 }
-div {
+
+.transform {
     height: 100px;
     width: 100px;
     position: relative;
     background-color: red;
-    
-    
     left: 50%;
     top: 50%;
-    transform: translate(-50%,-50%); 
+    transform: translate(-50%, -50%);
+}
 
+.margin-auto{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    margin: 0 auto;
 }

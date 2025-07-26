@@ -19,6 +19,8 @@ var arrowFunExpression = () => {
     console.log('hello, i am a arrow function');
 }
 
+// field => field*2
+
 arrowFunExpression();
 
 // 4. Immediately Invoked function expression (IIFE)
@@ -44,6 +46,7 @@ function outer( functionToCall ){
     functionToCall()
     console.log('outer function')
 }
+
 outer(inner)
 
 function wrapper(){
